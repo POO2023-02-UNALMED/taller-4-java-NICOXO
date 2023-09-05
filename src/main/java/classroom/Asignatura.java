@@ -12,6 +12,14 @@ public class Asignatura {
         this.tipo = Tipo.FUNDAMENTACION;
     }
 
+    public void setCodigoExterno(int codigoExterno) {
+        this.codigoExterno = codigoExterno;
+    }
+
+    public int getCodigoExterno() {
+        return codigoExterno;
+    }
+    
     public Asignatura(int codigoInterno, Tipo tipo) {
         this();
         this.codigoInterno = codigoInterno;
