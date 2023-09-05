@@ -45,4 +45,3 @@ public class Grupo {
         estudiantes[indice] = estudiante;
     }
 }
-
