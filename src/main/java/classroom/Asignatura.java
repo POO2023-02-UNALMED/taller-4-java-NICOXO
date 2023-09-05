@@ -19,7 +19,6 @@ public class Asignatura {
     public int getCodigoExterno() {
         return codigoExterno;
     }
-    
     public Asignatura(int codigoInterno, Tipo tipo) {
         this();
         this.codigoInterno = codigoInterno;
