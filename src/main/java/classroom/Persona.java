@@ -16,12 +16,4 @@ public class Persona {
     public String getNombre() {
         return nombre;
     }
-
-    public void setCedula(long cedula) {
-        this.cedula = cedula;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 }
