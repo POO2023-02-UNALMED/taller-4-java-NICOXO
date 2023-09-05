@@ -28,13 +28,7 @@ public class Asignatura {
         this.codigoExterno = codigoExternoNuevo;
         this.tipo = tipo;
     }
-    
-    public Asignatura(int codigoExterno, Tipo tipo) {
-        this();
-        this.codigoExterno = codigoExterno;
-        this.tipo = tipo;
-    }
-    
+
     public void setCodigoExterno(int codigoExterno) {
         this.codigoExterno = codigoExterno;
     }
