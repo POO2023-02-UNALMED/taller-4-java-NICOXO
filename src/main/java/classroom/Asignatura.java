@@ -1,7 +1,6 @@
 package classroom;
 
 public class Asignatura {
-
     public String nombre;
     public int codigoInterno;
     public int codigoExterno;
@@ -12,13 +11,6 @@ public class Asignatura {
         this.tipo = Tipo.FUNDAMENTACION;
     }
 
-    public void setCodigoExterno(int codigoExterno) {
-        this.codigoExterno = codigoExterno;
-    }
-
-    public int getCodigoExterno() {
-        return codigoExterno;
-    }
     public Asignatura(int codigoInterno, Tipo tipo) {
         this();
         this.codigoInterno = codigoInterno;
@@ -36,6 +28,16 @@ public class Asignatura {
         this.nombre = nombre;
         this.tipo = tipo;
     }
+
+
+    public void setCodigoExterno(int codigoExterno) {
+        this.codigoExterno = codigoExterno;
+    }
+
+    public int getCodigoExterno() {
+        return codigoExterno;
+    }
+    
 
     public Asignatura(String nombre, int codigoInterno, int codigoExterno, Tipo tipo) {
         this.nombre = nombre;
