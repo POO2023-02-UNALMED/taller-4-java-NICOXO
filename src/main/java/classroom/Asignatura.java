@@ -23,10 +23,10 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    public Asignatura(int codigoExternoNuevo, Tipo tipo) {
+    public Asignatura(int codigoExternoNuevo, Tipo tipoNuevo) {
         this();
         this.codigoExterno = codigoExternoNuevo;
-        this.tipo = tipo;
+        this.tipo = tipoNuevo;
     }
 
     public void setCodigoExterno(int codigoExterno) {
