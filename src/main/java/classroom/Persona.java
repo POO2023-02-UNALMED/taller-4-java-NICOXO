@@ -5,13 +5,19 @@ public class Persona {
     final long cedula;
     String nombre;
     static int totalPersonas;
-    
+
+    public Persona() {
+        this.cedula = 0;
+        this.nombre = "";
+        totalPersonas++;
+    }
+
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;
         this.nombre = nombre;
         totalPersonas++;
     }
-    
+
     public Persona(String nombre, long cedula) {
         this.cedula = cedula;
         this.nombre = nombre;
@@ -29,7 +35,7 @@ public class Persona {
         this.cedula = 0;
         totalPersonas++;
     }
-    
+
     public long getCedula() {
         return cedula;
     }
